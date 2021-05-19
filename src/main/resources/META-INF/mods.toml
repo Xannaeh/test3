@@ -1,0 +1,27 @@
+modLoader="javafml" #mandatory
+loaderVersion="[36,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+license="All rights reserved"
+#issueTrackerURL="https://change.me.to.your.issue.tracker.example.invalid/" #optional
+[[mods]] #mandatory
+modId="mdzs" #mandatory
+version="${file.jarVersion}" #mandatory
+displayName="魔道祖师 - Mo Dao Zu Shi" #mandatory
+#updateJSONURL="https://change.me.example.invalid/updates.json" #optional
+#displayURL="https://change.me.to.your.mods.homepage.example.invalid/" #optional
+logoFile="mdzs.png" #optional
+credits="Thanks to Mo Xiang Tong Xiu for writting the novel Mo Dao Zu Shi that this mod is inspired on" #optional
+authors="Xannaeh - Anabel" #optional
+description='''
+This mod is based on the novel of Mo Xiang Tong Xiu called Mo Dao Zu Shi'''
+[[dependencies.mdzs]] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[36,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.mdzs]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
